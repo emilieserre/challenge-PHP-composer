@@ -1,0 +1,13 @@
+{
+    "name": "isildur/composer",
+    "description": "Projet quete composer",
+    "authors": [
+        {
+            "name": "Emilie SERRE",
+            "email": "emilieserre@hotmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    }
+}
