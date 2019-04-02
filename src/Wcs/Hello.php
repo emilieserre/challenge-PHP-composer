@@ -3,8 +3,15 @@
 namespace App\Wcs;
 
 class Hello
+{
 
-private function talk{
+    public function talk()
+    {
+        return 'Hello World !';
+    }
+}
 
-    return 'Hello world!';
+function age($date)
+{
+    return (int) ((time() - strtotime($date)) / 3600 / 24 / 365);
 }
