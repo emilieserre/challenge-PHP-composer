@@ -7,5 +7,7 @@
             "email": "emilieserre@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "swiftmailer/swiftmailer": "^6.2"
+    }
 }
