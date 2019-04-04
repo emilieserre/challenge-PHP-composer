@@ -7,6 +7,7 @@ class Hello
 
     public function talk(): string
     {
-        return 'Hello World !';
+        $hello ='Hello World !';
+        return $hello;
     }
 }

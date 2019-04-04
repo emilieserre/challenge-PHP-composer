@@ -26,6 +26,10 @@ class ComposerStaticInit9f834005135224ddee10379782978c87
         array (
             'Egulias\\EmailValidator\\' => 23,
         ),
+        'A' => 
+        array (
+            'App\\Wcs\\' => 8,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -48,6 +52,10 @@ class ComposerStaticInit9f834005135224ddee10379782978c87
         'Egulias\\EmailValidator\\' => 
         array (
             0 => __DIR__ . '/..' . '/egulias/email-validator/EmailValidator',
+        ),
+        'App\\Wcs\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Wcs',
         ),
     );
 
